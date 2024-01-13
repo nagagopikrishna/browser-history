@@ -1,0 +1,96 @@
+.history-list {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .history-list {
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+  }
+}
+
+.history-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 576px) {
+  .history-items {
+    width: 100%;
+  }
+}
+
+.domain-text-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .domain-text-container {
+    flex-direction: column;
+    gap: 0px;
+  }
+}
+
+.domain-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .domain-container {
+    gap: 10px;
+  }
+}
+
+.time-access-description {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.domain-logo {
+  width: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .domain-logo {
+    width: 40px;
+  }
+}
+
+.title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #475569;
+}
+
+.domain-url {
+  color: #64748b;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 576px) {
+  .title {
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  .domain-url {
+    font-size: 12px;
+  }
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 0px solid;
+}
